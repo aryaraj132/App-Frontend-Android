@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/placard"
+            android:title="@string/menu_events" />
+        <item
+            android:id="@+id/nav_connected"
+            android:icon="@drawable/connection"
+            android:title="@string/menu_connected" />
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/bullhorn"
+            android:title="@string/menu_notification" />
+
+        <item
+            android:id="@+id/nav_massage"
+            android:icon="@drawable/chat"
+            android:title="@string/menu_chat" />
+    </group>
+</menu>
